@@ -1,0 +1,32 @@
+name: Email Obfuscate
+slug: email-obfuscate
+type: plugin
+version: 0.1.0
+description: Provides markdown and twig functionality to obfuscate email adresses to prevent spam.
+icon: plug
+author:
+  name: Andreas Albers
+  email: a.albers@stud.uni-heidelberg.de
+homepage: https://github.com/andreas-albers/grav-plugin-email-obfuscate
+demo: #
+keywords: grav, plugin, etc
+bugs: https://github.com/andreas-albers/grav-plugin-email-obfuscate/issues
+docs: #
+license: MIT
+
+dependencies:
+  - { name: grav, version: '>=1.6.0' }
+
+form:
+  validation: loose
+  fields:
+    enabled:
+      type: toggle
+      label: PLUGIN_ADMIN.PLUGIN_STATUS
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool

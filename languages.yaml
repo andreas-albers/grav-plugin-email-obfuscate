@@ -1,0 +1,7 @@
+en:
+  PLUGIN_EMAIL_OBFUSCATE:
+    NOSCRIPT: Please activate JavaScript to show email adress.
+
+de:
+  PLUGIN_EMAIL_OBFUSCATE:
+    NOSCRIPT: Bitte aktiviere JavaScript um die E-Mail Adresse anzuzeigen.
